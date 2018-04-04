@@ -12,7 +12,7 @@ sslify = SSLify(app)
 # 1.Прием сообщений
 # 2.Отсылка сообщений
 
-URL = 'https://api.telegram.org/bot385630025:AAHiEMG92WkUO9gmkPm3BwkdvSbkww5CImo/'
+URL = 'https://api.telegram.org/botTOKEN'
 
 # Записываем сообщение ,полученное от бота в файл
 def write_json(data, filename='answer.json'):
@@ -72,7 +72,7 @@ def index():
 
 
 
-# https://api.telegram.org/bot385630025:AAHiEMG92WkUO9gmkPm3BwkdvSbkww5CImo/setWebhook?url=https://tumaaannn.pythonanywhere.com
+# https://api.telegram.org/botTOKEN/setWebhook?url=https://tumaaannn.pythonanywhere.com
 
 def main():
     #r = requests.get(URL + 'getMe')
